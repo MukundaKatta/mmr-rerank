@@ -1,0 +1,15 @@
+[package]
+name = "mmr-rerank"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.74"
+description = "Maximal Marginal Relevance reranker for RAG: diversify a set of retrieved documents by balancing query-relevance against pairwise novelty. Zero deps."
+authors = ["Mukunda Rao Katta <mukunda.vjcs6@gmail.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/MukundaKatta/mmr-rerank"
+homepage = "https://github.com/MukundaKatta/mmr-rerank"
+documentation = "https://docs.rs/mmr-rerank"
+readme = "README.md"
+keywords = ["mmr", "rerank", "rag", "diversity", "retrieval"]
+categories = ["algorithms"]
+exclude = [".github/*", "target/*"]
